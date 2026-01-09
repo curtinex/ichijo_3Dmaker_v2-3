@@ -205,3 +205,21 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project specific: Streamlit outputs
+outputs/
+data/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.json
+*.html
+*.zip
+
+# Keep example files (if needed)
+!example.pdf
+!README.md
+
+# Streamlit secrets
+.streamlit/secrets.toml
